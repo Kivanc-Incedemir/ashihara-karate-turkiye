@@ -73,7 +73,7 @@ const TR = {
   "about.history.world.d": "Kanchō Hideyuki Ashihara'nın Japonya'da kurduğu ekolün doğuşu ve dünyaya yayılışı.",
   "about.history.world.link": "Devamını Oku",
   "about.history.tr.t": "Türkiye Tarihçesi",
-  "about.history.tr.d": "Sensei Ziya Özkan'ın 1983'ten bugüne Ümraniye'deki yolculuğu.",
+  "about.history.tr.d": "Sensei Ziya Özkan'ın 1983'ten bugüne İstanbul'daki yolculuğu.",
   "about.history.tr.link": "Devamını Oku",
 
   "about.values.eyebrow": "Dojo Kun",
@@ -127,19 +127,19 @@ const TR = {
 
   /* turkey history page */
   "thist.eyebrow": "Türkiye Tarihçesi",
-  "thist.title": "Ümraniye'den Bugüne",
+  "thist.title": "İstanbul'dan Bugüne",
   "thist.sub": "Sensei Ziya Özkan'ın 1983'ten bugüne uzanan yolculuğu ve Ashihara Karate'nin Türkiye'deki hikayesi.",
 
   "thist.sensei.eyebrow": "Baş Antrenör",
   "thist.sensei.title": "Sensei Ziya Özkan",
   "thist.sensei.p1": "Ziya Özkan, 1969 doğumlu, evli ve iki çocuk babasıdır. Dövüş sporlarına 1983 yılında tam temaslı Kyokushin Karate ile başladı; 1983-1992 yılları arasında korumasız çok sayıda tam temas maçında mücadele etti ve ilk siyah kuşağını 1988'de aldı.",
-  "thist.sensei.p2": "1991 yılında Ümraniye'de (Çakmak Mah.) ilk profesyonel Ashihara Karate salonunu açtı ve o günden beri aralıksız Ümraniye'de antrenörlük yapıyor.",
+  "thist.sensei.p2": "1991 yılında Ümraniye'de (Çakmak Mah.) Türkiye'nin ilk profesyonel Ashihara Karate salonunu — bugünkü Ashihara Karate İstanbul Dojo'yu — açtı ve o günden beri aralıksız İstanbul'da antrenörlük yapıyor.",
   "thist.sensei.p3": "NIKO Japonya'dan 3. Dan, Türkiye Karate Federasyonu'ndan 7. Dan ve 3. Kademe Antrenör derecesine sahiptir; Ashihara Karate çatısı altında öz savunma ve dövüş eğitimi veriyor.",
   "thist.sensei.quote": "\"Savaşta silahın süslüsü değil, işe yarayanı makbuldür.\"",
 
   "thist.founding.eyebrow": "Kuruluş",
   "thist.founding.title": "İlk Ashihara Salonu",
-  "thist.founding.p1": "1991 yılında Ziya Özkan, Ümraniye'nin Çakmak Mahallesi'nde Türkiye'nin ilk profesyonel Ashihara Karate salonunu açtı. O günden bu yana antrenörlüğünü aralıksız Ümraniye'de sürdürüyor.",
+  "thist.founding.p1": "1991 yılında Ziya Özkan, Ümraniye'nin Çakmak Mahallesi'nde Türkiye'nin ilk profesyonel Ashihara Karate salonunu — bugünkü Ashihara Karate İstanbul Dojo'yu — açtı. O günden bu yana antrenörlüğünü aralıksız İstanbul'da sürdürüyor.",
   "thist.founding.p2": "Bugün dersler İnkılap Mahallesi'ndeki Halide Edip Mesleki ve Teknik Anadolu Lisesi spor salonunda, haftada iki gün, özel eğitim seviyesinde küçük gruplar halinde yürütülüyor.",
 
   "thist.recog.eyebrow": "Tanınma",
@@ -148,19 +148,19 @@ const TR = {
   "thist.recog.p2": "Okulun 40. yıl kutlamalarına katılımı, Türkiye temsilciliğinin uluslararası Ashihara camiasıyla kurduğu bağın bir göstergesi oldu.",
 
   "thist.tl.eyebrow": "Zaman Çizgisi",
-  "thist.tl.title": "Ümraniye Yolculuğu",
+  "thist.tl.title": "İstanbul Yolculuğu",
   "thist.tl.1.t": "Kyokushin'e İlk Adım",
   "thist.tl.1.d": "Ziya Özkan, tam temaslı Kyokushin Karate ile dövüş sporlarına başlar.",
   "thist.tl.2.t": "İlk Siyah Kuşak",
   "thist.tl.2.d": "Yıllar süren tam temas maçlarının ardından ilk siyah kuşağını alır.",
-  "thist.tl.3.t": "Ümraniye'de İlk Dojo",
+  "thist.tl.3.t": "İstanbul'da İlk Dojo",
   "thist.tl.3.d": "Çakmak Mahallesi'nde Türkiye'nin ilk profesyonel Ashihara Karate salonu açılır.",
   "thist.tl.4.year": "2000 →",
   "thist.tl.4.t": "Sürekli Büyüme",
   "thist.tl.4.d": "Dojo, çocuk, genç ve yetişkin sporculara sabaki disiplinini kazandırmaya devam eder.",
   "thist.tl.5.year": "Bugün",
   "thist.tl.5.t": "Ashihara Karate Türkiye",
-  "thist.tl.5.d": "Ümraniye Ashihara Karate Okulu, Türkiye'deki Ashihara mirasını sürdürüyor.",
+  "thist.tl.5.d": "Ashihara Karate İstanbul Dojo, Türkiye'deki Ashihara mirasını sürdürüyor.",
 
   /* gallery page */
   "gal.eyebrow": "Galeri",
@@ -184,7 +184,7 @@ const TR = {
   "dojo.title": "Bize Katıl",
   "dojo.sub": "Dojomuzu ziyaret et veya doğrudan iletişime geç. İlk ders herkes için açıktır.",
   "dojo.list.eyebrow": "Antrenman Yeri",
-  "dojo.list.title": "Ümraniye Ashihara Karate Okulu",
+  "dojo.list.title": "Ashihara Karate İstanbul Dojo",
   "dojo.addr.p1": "İnkılap Mah., Küçüksu Cad. No:67, 34768 Ümraniye/İstanbul — İstanbul Halide Edip Mesleki ve Teknik Anadolu Lisesi bünyesindeki spor salonu.",
   "dojo.addr.p2": "Özel eğitim alanında, özel ders seviyesinde, 10 kişilik gruplarla çalışılır.",
   "dojo.schedule": "Antrenman Saati",
@@ -270,7 +270,7 @@ const EN = {
   "about.history.world.d": "How Kanchō Hideyuki Ashihara's school was born in Japan and spread across the world.",
   "about.history.world.link": "Read More",
   "about.history.tr.t": "Turkey History",
-  "about.history.tr.d": "Sensei Ziya Özkan's journey in Ümraniye from 1983 to today.",
+  "about.history.tr.d": "Sensei Ziya Özkan's journey in Istanbul from 1983 to today.",
   "about.history.tr.link": "Read More",
 
   "about.values.eyebrow": "Dojo Kun",
@@ -324,19 +324,19 @@ const EN = {
 
   /* turkey history page */
   "thist.eyebrow": "Turkey History",
-  "thist.title": "From Ümraniye to Today",
+  "thist.title": "From Istanbul to Today",
   "thist.sub": "Sensei Ziya Özkan's journey since 1983, and the story of Ashihara Karate in Türkiye.",
 
   "thist.sensei.eyebrow": "Head Instructor",
   "thist.sensei.title": "Sensei Ziya Özkan",
   "thist.sensei.p1": "Ziya Özkan was born in 1969, is married, and is the father of two. He began martial arts in 1983 with full-contact Kyokushin Karate; between 1983 and 1992 he fought in numerous unprotected full-contact matches, earning his first black belt in 1988.",
-  "thist.sensei.p2": "In 1991 he opened his first professional Ashihara Karate gym in Ümraniye (Çakmak Mah.), and has coached continuously in Ümraniye ever since.",
+  "thist.sensei.p2": "In 1991 he opened Türkiye's first professional Ashihara Karate gym in Ümraniye (Çakmak Mah.) — today's Ashihara Karate Istanbul Dojo — and has coached continuously in Istanbul ever since.",
   "thist.sensei.p3": "He holds 3rd Dan from NIKO Japan, 7th Dan from the Turkish Karate Federation, and a 3rd-level trainer certification, teaching self-defence and fighting under Ashihara Karate.",
   "thist.sensei.quote": "\"In battle, it is not the fanciest weapon that matters — it's the one that works.\"",
 
   "thist.founding.eyebrow": "Founding",
   "thist.founding.title": "The First Ashihara Dojo",
-  "thist.founding.p1": "In 1991, Ziya Özkan opened Türkiye's first professional Ashihara Karate dojo in Ümraniye's Çakmak neighbourhood, and has coached there continuously ever since.",
+  "thist.founding.p1": "In 1991, Ziya Özkan opened Türkiye's first professional Ashihara Karate dojo — today's Ashihara Karate Istanbul Dojo — in Ümraniye's Çakmak neighbourhood, and has coached there continuously ever since.",
   "thist.founding.p2": "Today, classes run twice a week in small, dedicated groups at the sports hall of Halide Edip Vocational and Technical Anatolian High School in the İnkılap neighbourhood.",
 
   "thist.recog.eyebrow": "Recognition",
@@ -345,19 +345,19 @@ const EN = {
   "thist.recog.p2": "His participation in the school's 40th-anniversary celebrations reflected the strong ties between the Turkish representation and the international Ashihara community.",
 
   "thist.tl.eyebrow": "Timeline",
-  "thist.tl.title": "The Ümraniye Journey",
+  "thist.tl.title": "The Istanbul Journey",
   "thist.tl.1.t": "First Steps in Kyokushin",
   "thist.tl.1.d": "Ziya Özkan begins his martial arts journey in full-contact Kyokushin Karate.",
   "thist.tl.2.t": "First Black Belt",
   "thist.tl.2.d": "After years of full-contact matches, he earns his first black belt.",
-  "thist.tl.3.t": "First Dojo in Ümraniye",
+  "thist.tl.3.t": "First Dojo in Istanbul",
   "thist.tl.3.d": "Türkiye's first professional Ashihara Karate dojo opens in the Çakmak neighbourhood.",
   "thist.tl.4.year": "2000 →",
   "thist.tl.4.t": "Continued Growth",
   "thist.tl.4.d": "The dojo continues teaching the discipline of sabaki to children, teens, and adults.",
   "thist.tl.5.year": "Today",
   "thist.tl.5.t": "Ashihara Karate Türkiye",
-  "thist.tl.5.d": "The Ümraniye Ashihara Karate School carries the Ashihara legacy forward in Türkiye.",
+  "thist.tl.5.d": "Ashihara Karate Istanbul Dojo carries the Ashihara legacy forward in Türkiye.",
 
   "gal.eyebrow": "Gallery",
   "gal.title": "Frames From the Mat",
@@ -379,7 +379,7 @@ const EN = {
   "dojo.title": "Join Us",
   "dojo.sub": "Visit our dojo or reach out directly. The first lesson is open to everyone.",
   "dojo.list.eyebrow": "Training Location",
-  "dojo.list.title": "Ümraniye Ashihara Karate School",
+  "dojo.list.title": "Ashihara Karate Istanbul Dojo",
   "dojo.addr.p1": "İnkılap Mah., Küçüksu Cad. No:67, 34768 Ümraniye/İstanbul — the sports hall inside İstanbul Halide Edip Vocational and Technical Anatolian High School.",
   "dojo.addr.p2": "Training runs in a dedicated space, at a private-lesson level, in groups of 10.",
   "dojo.schedule": "Training Hours",

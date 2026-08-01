@@ -127,7 +127,7 @@ const TR = {
 
   /* turkey history page */
   "thist.eyebrow": "Türkiye Tarihçesi",
-  "thist.title": "İstanbul'dan Bugüne",
+  "thist.title": "Türkiye'ye Girişinden Bugüne",
   "thist.sub": "Ashihara Karate'nin Türkiye'deki hikayesi ve Sensei Ziya Özkan'ın 1983'ten bugüne İstanbul'daki yolculuğu.",
 
   "thist.arrival.eyebrow": "Türkiye'ye Giriş",
@@ -330,7 +330,7 @@ const EN = {
 
   /* turkey history page */
   "thist.eyebrow": "Turkey History",
-  "thist.title": "From Istanbul to Today",
+  "thist.title": "From Its Arrival to Today",
   "thist.sub": "The story of Ashihara Karate in Türkiye, and Sensei Ziya Özkan's journey in Istanbul since 1983.",
 
   "thist.arrival.eyebrow": "Arrival in Türkiye",

@@ -134,7 +134,7 @@ const TR = {
   "thist.sensei.title": "Sensei Ziya Özkan",
   "thist.sensei.p1": "Ziya Özkan, 1969 doğumlu, evli ve iki çocuk babasıdır. Dövüş sporlarına 1983 yılında tam temaslı Kyokushin Karate ile başladı; 1983-1992 yılları arasında korumasız çok sayıda tam temas maçında mücadele etti ve ilk siyah kuşağını 1988'de aldı.",
   "thist.sensei.p2": "1991 yılında Ümraniye'de (Çakmak Mah.) ilk profesyonel Ashihara Karate salonunu açtı ve o günden beri aralıksız Ümraniye'de antrenörlük yapıyor.",
-  "thist.sensei.p3": "NIKO Japonya'dan 3. Dan, Türkiye Karate Federasyonu'ndan 7. Dan ve 3. Kademe Antrenör derecesine sahiptir; Ashihara Fight Karate çatısı altında öz savunma ve dövüş eğitimi veriyor.",
+  "thist.sensei.p3": "NIKO Japonya'dan 3. Dan, Türkiye Karate Federasyonu'ndan 7. Dan ve 3. Kademe Antrenör derecesine sahiptir; Ashihara Karate çatısı altında öz savunma ve dövüş eğitimi veriyor.",
   "thist.sensei.quote": "\"Savaşta silahın süslüsü değil, işe yarayanı makbuldür.\"",
 
   "thist.founding.eyebrow": "Kuruluş",
@@ -144,7 +144,7 @@ const TR = {
 
   "thist.recog.eyebrow": "Tanınma",
   "thist.recog.title": "Otuz Yılı Aşan Emek",
-  "thist.recog.p1": "Ziya Özkan, NIKO Japonya'dan 3. Dan ve Türkiye Karate Federasyonu'ndan 7. Dan ile 3. Kademe Antrenörlük derecesine sahiptir; Ashihara Fight Karate çatısı altında öz savunma ve dövüş eğitimi de veriyor.",
+  "thist.recog.p1": "Ziya Özkan, NIKO Japonya'dan 3. Dan ve Türkiye Karate Federasyonu'ndan 7. Dan ile 3. Kademe Antrenörlük derecesine sahiptir; Ashihara Karate çatısı altında öz savunma ve dövüş eğitimi de veriyor.",
   "thist.recog.p2": "Okulun 40. yıl kutlamalarına katılımı, Türkiye temsilciliğinin uluslararası Ashihara camiasıyla kurduğu bağın bir göstergesi oldu.",
 
   "thist.tl.eyebrow": "Zaman Çizgisi",
@@ -331,7 +331,7 @@ const EN = {
   "thist.sensei.title": "Sensei Ziya Özkan",
   "thist.sensei.p1": "Ziya Özkan was born in 1969, is married, and is the father of two. He began martial arts in 1983 with full-contact Kyokushin Karate; between 1983 and 1992 he fought in numerous unprotected full-contact matches, earning his first black belt in 1988.",
   "thist.sensei.p2": "In 1991 he opened his first professional Ashihara Karate gym in Ümraniye (Çakmak Mah.), and has coached continuously in Ümraniye ever since.",
-  "thist.sensei.p3": "He holds 3rd Dan from NIKO Japan, 7th Dan from the Turkish Karate Federation, and a 3rd-level trainer certification, teaching self-defence and fighting under Ashihara Fight Karate.",
+  "thist.sensei.p3": "He holds 3rd Dan from NIKO Japan, 7th Dan from the Turkish Karate Federation, and a 3rd-level trainer certification, teaching self-defence and fighting under Ashihara Karate.",
   "thist.sensei.quote": "\"In battle, it is not the fanciest weapon that matters — it's the one that works.\"",
 
   "thist.founding.eyebrow": "Founding",
@@ -341,7 +341,7 @@ const EN = {
 
   "thist.recog.eyebrow": "Recognition",
   "thist.recog.title": "Over Three Decades of Work",
-  "thist.recog.p1": "Ziya Özkan holds 3rd Dan from NIKO Japan and 7th Dan plus a 3rd-level trainer certification from the Turkish Karate Federation, and also teaches self-defence and fighting under Ashihara Fight Karate.",
+  "thist.recog.p1": "Ziya Özkan holds 3rd Dan from NIKO Japan and 7th Dan plus a 3rd-level trainer certification from the Turkish Karate Federation, and also teaches self-defence and fighting under Ashihara Karate.",
   "thist.recog.p2": "His participation in the school's 40th-anniversary celebrations reflected the strong ties between the Turkish representation and the international Ashihara community.",
 
   "thist.tl.eyebrow": "Timeline",

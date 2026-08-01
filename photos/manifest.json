@@ -1,0 +1,58 @@
+{
+  "photos": [
+    {
+      "file": "event-06-40-yil-toplu-foto.jpg",
+      "category": "event",
+      "tr": "Ashihara Karate 40. Yıl — Romanya'da toplu fotoğraf",
+      "en": "Ashihara Karate 40th Anniversary — group photo in Romania"
+    },
+    {
+      "file": "event-07-40-yil-hocalar.jpg",
+      "category": "event",
+      "tr": "Ashihara Karate 40. Yıl etkinliğinde hocalar",
+      "en": "Senseis at the Ashihara Karate 40th Anniversary event"
+    },
+    {
+      "file": "event-08-40-yil-odul-toreni.jpg",
+      "category": "event",
+      "tr": "Ashihara Karate 40. Yıl — ödül töreni",
+      "en": "Ashihara Karate 40th Anniversary — award ceremony"
+    },
+    {
+      "file": "founder-kancho-hideyuki-ashihara.jpg",
+      "category": "training",
+      "tr": "Kanchō Hideyuki Ashihara — sabaki tekniği",
+      "en": "Kanchō Hideyuki Ashihara — sabaki technique"
+    },
+    {
+      "file": "real-02-grup-dersi.jpg",
+      "category": "training",
+      "tr": "Ümraniye dojosunda grup dersi",
+      "en": "Group class at the Ümraniye dojo"
+    },
+    {
+      "file": "real-03-kusak-sirasi.jpg",
+      "category": "grading",
+      "tr": "Kuşak sırasına göre dizilen öğrenciler",
+      "en": "Students lined up by belt rank"
+    },
+    {
+      "file": "real-04-teknik-calismasi.jpg",
+      "category": "training",
+      "tr": "Kihon teknik çalışması",
+      "en": "Kihon technique drill"
+    },
+    {
+      "file": "real-05-yumruk-teknigi.jpg",
+      "category": "training",
+      "tr": "Yumruk tekniği çalışması",
+      "en": "Punching technique drill"
+    },
+    {
+      "file": "real-06-umraniye-toplu-foto.jpg",
+      "category": "training",
+      "tr": "Ümraniye dojosunda öğrenciler ve antrenörler",
+      "en": "Students and instructors at the Ümraniye dojo"
+    }
+  ]
+}

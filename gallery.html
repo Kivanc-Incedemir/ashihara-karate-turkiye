@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="tr" translate="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="google" content="notranslate">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>html.i18n-hide body { visibility: hidden; }</style>
+  <script>
+    /* apply saved language before first paint to avoid a flash of the wrong language —
+       kept first, ahead of any external stylesheet, so it never waits on a slow network request */
+    (function () {
+      var l = "tr";
+      try { var s = localStorage.getItem("ak-lang"); if (s === "en" || s === "tr") l = s; } catch (e) {}
+      document.documentElement.lang = l;
+      if (l !== "tr") document.documentElement.classList.add("i18n-hide");
+    })();
+  </script>
+  <title>Galeri · Ashihara Karate Türkiye</title>
+  <meta name="description" content="Ashihara Karate Türkiye galerisi — antrenman, kuşak sınavı ve etkinliklerden fotoğraflar.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Galeri · Ashihara Karate Türkiye">
+  <meta property="og:description" content="Ashihara Karate Türkiye galerisi — antrenman, kuşak sınavı ve etkinliklerden fotoğraflar.">
+  <meta property="og:image" content="photos/real-02-grup-dersi.jpg">
+  <meta property="og:locale" content="tr_TR">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SportsActivityLocation",
+    "name": "Ümraniye Ashihara Karate Okulu",
+    "alternateName": "Ashihara Karate Türkiye",
+    "image": "photos/event-08-40-yil-odul-toreni.jpg",
+    "telephone": "+905337779022",
+    "email": "ziyaozkan@gmail.com",
+    "priceRange": "İlk ders ücretsiz",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "İnkılap Mah., Küçüksu Cad. No:67",
+      "addressLocality": "Ümraniye",
+      "addressRegion": "İstanbul",
+      "postalCode": "34768",
+      "addressCountry": "TR"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Thursday"],
+        "opens": "20:00",
+        "closes": "21:00"
+      }
+    ],
+    "sameAs": [
+      "https://www.instagram.com/ashiharakaikanturkiye/",
+      "https://www.facebook.com/ashiharakarateistanbul/",
+      "https://www.youtube.com/@senseiziyaozkan"
+    ],
+    "founder": { "@type": "Person", "name": "Ziya Özkan" }
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="icon" href="assets/img/favicon.png" type="image/png">
+</head>
+<body data-title-key="nav.gallery">
+
+  <header class="site-header">
+    <nav class="nav wrap">
+      <a class="brand" href="index.html" aria-label="Ashihara Karate Türkiye">
+        <img class="brand__mark" src="assets/img/logo.png" alt="Ashihara Karate Türkiye" width="40" height="40">
+        <span class="brand__text"><b>Ashihara Karate</b><span data-i18n="brand.sub">Türkiye</span></span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" data-i18n="nav.home">Ana Sayfa</a></li>
+        <li><a href="about.html" data-i18n="nav.about">Ashihara Hakkında</a></li>
+        <li><a href="dunya-tarihcesi.html" data-i18n="nav.worldhistory">Dünya Tarihçesi</a></li>
+        <li><a href="turkiye-tarihcesi.html" data-i18n="nav.turkeyhistory">Türkiye Tarihçesi</a></li>
+        <li><a href="gallery.html" aria-current="page" data-i18n="nav.gallery">Galeri</a></li>
+        <li><a href="dojos.html" data-i18n="nav.dojos">Dojolar &amp; İletişim</a></li>
+      </ul>
+      <div class="nav-right">
+        <div class="lang-toggle" role="group" aria-label="Language / Dil">
+          <button data-lang="tr" aria-pressed="true">TR</button>
+          <button data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <button class="nav-toggle" aria-label="Menü" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="wrap">
+        <span class="eyebrow" data-i18n="gal.eyebrow">Galeri</span>
+        <h1 data-i18n="gal.title">Tatamiden Kareler</h1>
+        <p data-i18n="gal.sub">Antrenmanlar, sınavlar, seminerler ve turnuvalardan anlar.</p>
+      </div>
+    </section>
+
+    <section class="section--tight">
+      <div class="wrap">
+        <div class="gallery-filters" role="group" aria-label="Filter">
+          <button class="filter-btn" data-filter="all" aria-pressed="true" data-i18n="gal.filter.all">Tümü</button>
+          <button class="filter-btn" data-filter="training" aria-pressed="false" data-i18n="gal.filter.training">Antrenman</button>
+          <button class="filter-btn" data-filter="grading" aria-pressed="false" data-i18n="gal.filter.grading">Kuşak Sınavı</button>
+          <button class="filter-btn" data-filter="event" aria-pressed="false" data-i18n="gal.filter.event">Etkinlik</button>
+        </div>
+
+        <div id="gallery-empty" class="gallery-empty" hidden>
+          <h3 style="font-family:var(--ff-display);margin-bottom:.6rem;" data-i18n="gal.empty.title">Henüz fotoğraf eklenmedi</h3>
+          <p data-i18n-html="gal.empty.body">Fotoğrafları <code>photos/</code> klasörüne ekleyin.</p>
+        </div>
+
+        <div id="gallery-grid" class="gallery-grid"></div>
+      </div>
+    </section>
+
+    <!-- ===== videos ===== -->
+    <section class="section" style="border-top:1px solid var(--line);">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow" data-i18n="vid.eyebrow">İzle</span>
+          <h2 data-i18n="vid.title">Video Arşivi</h2>
+          <p class="lead" style="margin-top:1rem;" data-i18n="vid.sub">Sensei Ziya Özkan'ın YouTube kanalından teknikler, kata ve gösteriler.</p>
+        </div>
+        <div class="video-grid">
+          <div class="reveal">
+            <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/fhFg-AXXms8" title="Ashihara Karate — Ushiro Mawashi Geri" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <p class="video-caption">Ushiro Mawashi Geri</p>
+          </div>
+          <div class="reveal">
+            <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/TEO5pw3ZtxA" title="TKF 7. Dan İmtihanı — Nage No San" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <p class="video-caption">7. Dan İmtihanı — Nage No San</p>
+          </div>
+          <div class="reveal">
+            <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/UPEswyXMkJ0" title="Kumite No Kata 1" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <p class="video-caption">Kumite No Kata 1</p>
+          </div>
+          <div class="reveal">
+            <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/h-FkvXe647w" title="Kombinasyon" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <p class="video-caption">Kombinasyon</p>
+          </div>
+          <div class="reveal">
+            <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/0Lyyvm36m_g" title="Tobi Ushiro Geri" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <p class="video-caption">Tobi Ushiro Geri</p>
+          </div>
+          <div class="reveal">
+            <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/Ru5QgoQE7ps" title="Canlı Yayın" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <p class="video-caption">Canlı Yayın</p>
+          </div>
+        </div>
+        <div class="videos-more reveal">
+          <a class="btn btn--ghost" href="https://www.youtube.com/@senseiziyaozkan" target="_blank" rel="noopener" data-i18n="vid.more">Kanalın Tamamını YouTube'da İzle</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- lightbox (kept inside <main> so client-side nav swaps it along with the rest) -->
+    <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Photo">
+      <button class="lb-btn lb-close" aria-label="Kapat / Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18" stroke-linecap="round"/></svg></button>
+      <button class="lb-btn lb-prev" aria-label="Önceki / Previous"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 5l-7 7 7 7" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <button class="lb-btn lb-next" aria-label="Sonraki / Next"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <img src="" alt="">
+      <div class="lightbox__cap"></div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="index.html" style="margin-bottom:1rem;">
+            <img class="brand__mark" src="assets/img/logo.png" alt="Ashihara Karate Türkiye" width="40" height="40">
+            <span class="brand__text"><b>Ashihara Karate</b><span data-i18n="brand.sub">Türkiye</span></span>
+          </a>
+          <p data-i18n="foot.about">Ashihara Karate Türkiye — sabaki temelli tam temaslı karate ekolünün Türkiye topluluğu.</p>
+        </div>
+        <div>
+          <h4 data-i18n="foot.nav">Sayfalar</h4>
+          <ul>
+            <li><a href="index.html" data-i18n="nav.home">Ana Sayfa</a></li>
+            <li><a href="about.html" data-i18n="nav.about">Ashihara Hakkında</a></li>
+            <li><a href="dunya-tarihcesi.html" data-i18n="nav.worldhistory">Dünya Tarihçesi</a></li>
+            <li><a href="turkiye-tarihcesi.html" data-i18n="nav.turkeyhistory">Türkiye Tarihçesi</a></li>
+            <li><a href="gallery.html" data-i18n="nav.gallery">Galeri</a></li>
+            <li><a href="dojos.html" data-i18n="nav.dojos">Dojolar &amp; İletişim</a></li>
+            <li><a href="https://ashihara-karate.net" target="_blank" rel="noopener" data-i18n="foot.hq">Ashihara Genel Merkezi</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="foot.contact">İletişim</h4>
+          <ul>
+            <li>İnkılap Mah., Küçüksu Cad. No:67, Ümraniye, İstanbul</li>
+            <li><a href="https://wa.me/905337779022?text=Merhaba%2C%20Ashihara%20Karate%20dersleri%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." data-i18n-attr="href:whatsapp.href" target="_blank" rel="noopener">0533 777 90 22</a></li>
+            <li><a href="mailto:ziyaozkan@gmail.com">ziyaozkan@gmail.com</a></li>
+          </ul>
+          <div class="social" style="margin-top:1rem;">
+            <a href="https://wa.me/905337779022?text=Merhaba%2C%20Ashihara%20Karate%20dersleri%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." data-i18n-attr="href:whatsapp.href" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9"/><path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1"/></svg></a>
+            <a href="https://www.instagram.com/ashiharakaikanturkiye/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+            <a href="https://www.facebook.com/ashiharakarateistanbul/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 9h3V6h-3c-2 0-3 1-3 3v2H9v3h2v6h3v-6h2.5l.5-3H14V9z"/></svg></a>
+            <a href="https://www.youtube.com/@senseiziyaozkan" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="M10 9l5 3-5 3V9z" fill="currentColor" stroke="none"/></svg></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year">2026</span> Ashihara Karate Türkiye. <span data-i18n="foot.rights">Tüm hakları saklıdır.</span></span>
+        <span data-i18n="foot.disclaimer">Resmi olmayan tanıtım sitesi.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/gallery.js"></script>
+  <script src="assets/js/nav.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

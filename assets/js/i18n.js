@@ -129,11 +129,7 @@ const TR = {
   "thist.eyebrow": "Türkiye Tarihçesi",
 
   "thist.title": "İstanbul'dan Bugüne",
-  "thist.sub": "Ferhat Özsert'in Türkiye'ye kazandırdığı Ashihara Karate'nin hikayesi ve Sensei Ziya Özkan'ın 1983'ten bugüne İstanbul'daki yolculuğu.",
-
-  "thist.arrival.eyebrow": "Türkiye'ye Giriş",
-  "thist.arrival.title": "Ashihara Karate'nin Türkiye'ye Girişi",
-  "thist.arrival.p1": "Ashihara Karate'yi Türkiye'ye kazandıran isim Kancho Ferhat Özsert'tir. Kariyerine Türkiye'de başlayan ve yurt dışında (Hollanda ve Japonya'ya yakın çevrelerde) eğitim gören Özsert, Mas Oyama'nın Kyokushin ekolüne bağlanan ilk Türk öğrencilerden biri oldu ve İstanbul Mecidiyeköy'de bir dojo işletti. Kyokushin'de yaşanan bölünmenin ardından Ashihara koluna geçen Özsert, kaynaklara göre yaklaşık 1985 yılında Türkiye'nin Ashihara temsilcisi oldu. Haziran 2015'te, yaklaşık 63 yaşında vefat etti; İstanbul Sarıyer Çayırbaşı Mezarlığı'na defnedildi.",
+  "thist.sub": "Sensei Ziya Özkan'ın 1983'ten bugüne uzanan yolculuğu ve Ashihara Karate'nin Türkiye'deki hikayesi.",
 
   "thist.official.p1": "Üstadımız Ferhat Özsert'in ülkemize kazandırdığı Ashihara Karate'nin, günümüzde Japonya merkezli tek resmi organizasyonu olan NIKO (New International Karate Organisation)'nun ülkemizdeki tek branş şefi Sensei Ziya Özkan'dır. Ashihara Karate'nin Türkiye'de yapılan tüm resmi faaliyetleri Türkiye Karate Federasyonu bünyesinde yürütülmektedir.",
 
@@ -333,11 +329,7 @@ const EN = {
   "thist.eyebrow": "Turkey History",
 
   "thist.title": "From Istanbul to Today",
-  "thist.sub": "The story of Ashihara Karate brought to Türkiye by Ferhat Özsert, and Sensei Ziya Özkan's journey in Istanbul since 1983.",
-
-  "thist.arrival.eyebrow": "Arrival in Türkiye",
-  "thist.arrival.title": "How Ashihara Karate Arrived in Türkiye",
-  "thist.arrival.p1": "Ashihara Karate was brought to Türkiye by Kancho Ferhat Özsert. He trained early on in Türkiye and abroad — in the Netherlands and in circles close to Japan — becoming one of the first Turkish students connected to Mas Oyama's Kyokushin lineage, and ran a dojo in Mecidiyeköy, Istanbul. When Kyokushin split and the Ashihara style broke away, Özsert became Türkiye's representative for Ashihara, reportedly around 1985. He passed away in June 2015 at about 63, and is buried at Sarıyer Çayırbaşı Cemetery in Istanbul.",
+  "thist.sub": "Sensei Ziya Özkan's journey since 1983, and the story of Ashihara Karate in Türkiye.",
 
   "thist.official.p1": "Ashihara Karate, brought to our country by our master Ferhat Özsert, has Sensei Ziya Özkan as its sole branch chief in Türkiye under NIKO (New International Karate Organisation) — today the only official organisation headquartered in Japan. All official activities of Ashihara Karate carried out in Türkiye take place under the Turkish Karate Federation.",
 

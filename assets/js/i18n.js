@@ -131,7 +131,7 @@ const TR = {
   "thist.title": "İstanbul'dan Bugüne",
   "thist.sub": "Sensei Ziya Özkan'ın 1983'ten bugüne uzanan yolculuğu ve Ashihara Karate'nin Türkiye'deki hikayesi.",
 
-  "thist.official.p1": "Üstadımız Ferhat Özsert'in ülkemize kazandırdığı Ashihara Karate'nin, günümüzde Japonya merkezli tek resmi organizasyonu olan NIKO (New International Karate Organisation)'nun ülkemizdeki tek branş şefi Sensei Ziya Özkan'dır. Ashihara Karate'nin Türkiye'de yapılan tüm resmi faaliyetleri Türkiye Karate Federasyonu bünyesinde yürütülmektedir.",
+  "thist.official.p1": "Üstadımız Ferhat Özsert'in 1986 yılında ülkemize kazandırdığı Ashihara Karate'nin Günümüzde Japonya merkezli tek resmi organizasyonu olan NIKO (New İnternational Karate Organization)'nun ülkemizdeki tek branş şefi Sensei Ziya Özkan'dır. Ashihara Karate'nin Türkiye'de yapılan tüm resmi faaliyetleri Türkiye Karate Federasyonu bünyesinde yapılmaktadır.",
 
   "thist.sensei.eyebrow": "Baş Antrenör",
   "thist.sensei.title": "Sensei Ziya Özkan",
@@ -331,7 +331,7 @@ const EN = {
   "thist.title": "From Istanbul to Today",
   "thist.sub": "Sensei Ziya Özkan's journey since 1983, and the story of Ashihara Karate in Türkiye.",
 
-  "thist.official.p1": "Ashihara Karate, brought to our country by our master Ferhat Özsert, has Sensei Ziya Özkan as its sole branch chief in Türkiye under NIKO (New International Karate Organisation) — today the only official organisation headquartered in Japan. All official activities of Ashihara Karate carried out in Türkiye take place under the Turkish Karate Federation.",
+  "thist.official.p1": "Ashihara Karate, introduced to Türkiye in 1986 by our master, Ferhat Özsert, is represented in Türkiye by Sensei Ziya Özkan, the sole official Branch Chief of NIKO (New International Karate Organisation)—currently the only official Ashihara Karate organisation headquartered in Japan. All official Ashihara Karate activities in Türkiye are conducted under the auspices of the Turkish Karate Federation.",
 
   "thist.sensei.eyebrow": "Head Instructor",
   "thist.sensei.title": "Sensei Ziya Özkan",

@@ -2,9 +2,7 @@ backend:
   name: github
   repo: Kivanc-Incedemir/ashihara-karate-turkiye
   branch: master
-  # TODO: replace with your deployed OAuth proxy URL (see cms-oauth/README.md).
-  # Example once deployed: https://ashihara-cms-oauth.<your-subdomain>.workers.dev
-  base_url: "https://REPLACE-WITH-YOUR-OAUTH-WORKER.workers.dev"
+  base_url: "https://ashihara-cms-oauth.kivanc-incedemir.workers.dev"
 
 publish_mode: simple
 media_folder: "photos"

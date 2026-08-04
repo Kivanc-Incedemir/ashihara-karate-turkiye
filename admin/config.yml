@@ -42,11 +42,19 @@ collections:
         fields:
           - label: "Metinler"
             name: "strings"
-            widget: "keyvalue"
+            widget: "list"
+            summary: "{{fields.key}}"
+            fields:
+              - { label: "Anahtar (dokunmayın)", name: "key", widget: "string" }
+              - { label: "Metin", name: "value", widget: "text" }
       - name: "en"
         label: "English Text"
         file: "assets/i18n/en.json"
         fields:
           - label: "Strings"
             name: "strings"
-            widget: "keyvalue"
+            widget: "list"
+            summary: "{{fields.key}}"
+            fields:
+              - { label: "Key (do not touch)", name: "key", widget: "string" }
+              - { label: "Text", name: "value", widget: "text" }

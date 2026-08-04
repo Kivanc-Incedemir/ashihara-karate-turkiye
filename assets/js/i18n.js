@@ -57,13 +57,17 @@ function reveal() {
   document.documentElement.classList.remove("i18n-hide");
 }
 
+// strings.json shape: { "strings": [{ "key": "nav.home", "value": "Ana Sayfa" }, ...] }
+// (a list, not a plain object, so it's editable with Decap CMS's built-in "list" widget)
+const toDict = (list) => Object.fromEntries((list || []).map((e) => [e.key, e.value]));
+
 async function loadDicts() {
   const [tr, en] = await Promise.all([
-    fetch("assets/i18n/tr.json", { cache: "no-store" }).then((r) => (r.ok ? r.json() : { strings: {} })),
-    fetch("assets/i18n/en.json", { cache: "no-store" }).then((r) => (r.ok ? r.json() : { strings: {} })),
+    fetch("assets/i18n/tr.json", { cache: "no-store" }).then((r) => (r.ok ? r.json() : { strings: [] })),
+    fetch("assets/i18n/en.json", { cache: "no-store" }).then((r) => (r.ok ? r.json() : { strings: [] })),
   ]);
-  DICTS.tr = tr.strings || {};
-  DICTS.en = en.strings || {};
+  DICTS.tr = toDict(tr.strings);
+  DICTS.en = toDict(en.strings);
 }
 
 async function initI18n() {

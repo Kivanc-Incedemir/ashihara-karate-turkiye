@@ -1,0 +1,54 @@
+backend:
+  name: github
+  repo: Kivanc-Incedemir/ashihara-karate-turkiye
+  branch: master
+  # TODO: replace with your deployed OAuth proxy URL (see cms-oauth/README.md).
+  # Example once deployed: https://ashihara-cms-oauth.<your-subdomain>.workers.dev
+  base_url: "https://REPLACE-WITH-YOUR-OAUTH-WORKER.workers.dev"
+
+publish_mode: simple
+media_folder: "photos"
+public_folder: "photos"
+
+collections:
+  - name: "gallery"
+    label: "Galeri Fotoğrafları"
+    files:
+      - name: "manifest"
+        label: "Fotoğraf Listesi"
+        file: "photos/manifest.json"
+        fields:
+          - label: "Fotoğraflar"
+            name: "photos"
+            widget: "list"
+            summary: "{{fields.tr}}"
+            fields:
+              - { label: "Fotoğraf", name: "file", widget: "image" }
+              - label: "Kategori"
+                name: "category"
+                widget: "select"
+                default: "training"
+                options:
+                  - { label: "Antrenman", value: "training" }
+                  - { label: "Kuşak Sınavı", value: "grading" }
+                  - { label: "Etkinlik", value: "event" }
+              - { label: "Başlık (Türkçe)", name: "tr", widget: "string" }
+              - { label: "Caption (English)", name: "en", widget: "string" }
+
+  - name: "site_text"
+    label: "Site Metinleri"
+    files:
+      - name: "tr"
+        label: "Türkçe Metinler"
+        file: "assets/i18n/tr.json"
+        fields:
+          - label: "Metinler"
+            name: "strings"
+            widget: "keyvalue"
+      - name: "en"
+        label: "English Text"
+        file: "assets/i18n/en.json"
+        fields:
+          - label: "Strings"
+            name: "strings"
+            widget: "keyvalue"

@@ -23,6 +23,9 @@ function initGallery() {
   let current = 0;
 
   const cap = (p) => (window.AK_I18N?.lang === "en" ? p.en : p.tr) || p.tr || p.en || "";
+  // manifest "file" is normally a bare filename, but the CMS's image picker may
+  // store it as "photos/name.jpg" or "/photos/name.jpg" — normalize either way.
+  const src = (p) => "photos/" + String(p.file).replace(/^\/?(photos\/)?/, "");
 
   function render(list) {
     view = list;
@@ -35,7 +38,7 @@ function initGallery() {
       fig.setAttribute("aria-label", cap(p));
 
       const img = document.createElement("img");
-      img.src = "photos/" + p.file;
+      img.src = src(p);
       img.alt = cap(p);
       img.loading = "lazy";
 
@@ -74,7 +77,7 @@ function initGallery() {
   function show() {
     const p = view[current];
     if (!p) return;
-    lbImg.src = "photos/" + p.file;
+    lbImg.src = src(p);
     lbImg.alt = cap(p);
     lbCap.textContent = cap(p);
   }

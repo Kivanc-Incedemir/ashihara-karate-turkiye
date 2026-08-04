@@ -78,6 +78,27 @@ Dil tercihi, ziyaretçinin tarayıcısında (`localStorage`) saklanır; varsayı
 
 ---
 
+## 🔐 İçerik Yönetimi / Admin panel
+
+Kod veya git bilmeyen biri (örn. sensei) galeriyi ve site metinlerini `/admin/`
+adresinden düzenleyebilir — [Decap CMS](https://decapcms.org) kullanır, GitHub Pages'i
+terk etmeden doğrudan bu repoya commit atar.
+
+- **Galeri Fotoğrafları**: fotoğraf yükleme, başlık (TR/EN) ve kategori düzenleme —
+  `photos/manifest.json`'u günceller.
+- **Site Metinleri**: TR/EN sitedeki neredeyse tüm metinleri (menü, dojo adresi/saatleri,
+  iletişim bilgileri, tarihçe metinleri, footer...) özgür biçimde düzenleme.
+
+**Tek seferlik kurulum gerekiyor** — GitHub'ın OAuth girişi bir "client secret"
+gerektirir, bu da statik bir sitede güvenle saklanamaz. `cms-oauth/README.md` içinde
+adım adım talimatlar var (ücretsiz bir Cloudflare Worker kurulumu, ~10 dakika). Kurulum
+tamamlanana kadar `/admin/` sayfası açılır ama giriş çalışmaz.
+
+Not: Decap'in kendi kullanıcı sistemi yok — giriş yapan herkesin bu GitHub reposunda
+**collaborator** olması gerekir (Settings → Collaborators).
+
+---
+
 ## 🎨 Özelleştirme / Customisation
 
 | Ne / What | Nerede / Where |

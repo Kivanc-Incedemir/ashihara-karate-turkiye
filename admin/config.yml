@@ -46,8 +46,10 @@ collections:
           - label: "Metinler"
             name: "strings"
             widget: "list"
-            summary: "{{fields.key}}"
+            summary: "{{fields.tr}}"
             allow_add: false
+            allow_remove: false
+            collapsed: false
             min: 14
             max: 14
             fields:
@@ -63,8 +65,10 @@ collections:
           - label: "Metinler"
             name: "strings"
             widget: "list"
-            summary: "{{fields.key}}"
+            summary: "{{fields.tr}}"
             allow_add: false
+            allow_remove: false
+            collapsed: false
             min: 19
             max: 19
             fields:
@@ -80,8 +84,10 @@ collections:
           - label: "Metinler"
             name: "strings"
             widget: "list"
-            summary: "{{fields.key}}"
+            summary: "{{fields.tr}}"
             allow_add: false
+            allow_remove: false
+            collapsed: false
             min: 33
             max: 33
             fields:
@@ -97,8 +103,10 @@ collections:
           - label: "Metinler"
             name: "strings"
             widget: "list"
-            summary: "{{fields.key}}"
+            summary: "{{fields.tr}}"
             allow_add: false
+            allow_remove: false
+            collapsed: false
             min: 13
             max: 13
             fields:
@@ -114,8 +122,10 @@ collections:
           - label: "Metinler"
             name: "strings"
             widget: "list"
-            summary: "{{fields.key}}"
+            summary: "{{fields.tr}}"
             allow_add: false
+            allow_remove: false
+            collapsed: false
             min: 22
             max: 22
             fields:
@@ -131,8 +141,10 @@ collections:
           - label: "Metinler"
             name: "strings"
             widget: "list"
-            summary: "{{fields.key}}"
+            summary: "{{fields.tr}}"
             allow_add: false
+            allow_remove: false
+            collapsed: false
             min: 33
             max: 33
             fields:
@@ -148,8 +160,10 @@ collections:
           - label: "Metinler"
             name: "strings"
             widget: "list"
-            summary: "{{fields.key}}"
+            summary: "{{fields.tr}}"
             allow_add: false
+            allow_remove: false
+            collapsed: false
             min: 32
             max: 32
             fields:

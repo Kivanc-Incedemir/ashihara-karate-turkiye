@@ -1,0 +1,164 @@
+{
+  "strings": [
+    {
+      "key": "thist.eyebrow",
+      "tr": "Türkiye Tarihçesi",
+      "en": "Turkey History"
+    },
+    {
+      "key": "thist.title",
+      "tr": "İstanbul'dan Bugüne",
+      "en": "From Istanbul to Today"
+    },
+    {
+      "key": "thist.sub",
+      "tr": "Sensei Ziya Özkan'ın 1983'ten bugüne uzanan yolculuğu ve Ashihara Karate'nin Türkiye'deki hikayesi.",
+      "en": "Sensei Ziya Özkan's journey since 1983, and the story of Ashihara Karate in Türkiye."
+    },
+    {
+      "key": "thist.official.p1",
+      "tr": "Üstadımız Ferhat Özsert'in 1986 yılında ülkemize kazandırdığı Ashihara Karate'nin Günümüzde Japonya merkezli tek resmi organizasyonu olan NIKO (New İnternational Karate Organization)'nun ülkemizdeki tek branş şefi Sensei Ziya Özkan'dır. Ashihara Karate'nin Türkiye'de yapılan tüm resmi faaliyetleri Türkiye Karate Federasyonu bünyesinde yapılmaktadır.",
+      "en": "Ashihara Karate, introduced to Türkiye in 1986 by our master, Ferhat Özsert, is represented in Türkiye by Sensei Ziya Özkan, the sole official Branch Chief of NIKO (New International Karate Organisation)—currently the only official Ashihara Karate organisation headquartered in Japan. All official Ashihara Karate activities in Türkiye are conducted under the auspices of the Turkish Karate Federation."
+    },
+    {
+      "key": "thist.sensei.eyebrow",
+      "tr": "Baş Antrenör",
+      "en": "Head Instructor"
+    },
+    {
+      "key": "thist.sensei.title",
+      "tr": "Sensei Ziya Özkan",
+      "en": "Sensei Ziya Özkan"
+    },
+    {
+      "key": "thist.sensei.p1",
+      "tr": "Ziya Özkan, 1969 doğumlu, evli ve iki çocuk babasıdır. Dövüş sporlarına 1983 yılında tam temaslı Kyokushin Karate ile başladı; 1983-1992 yılları arasında korumasız çok sayıda tam temas maçında mücadele etti ve ilk siyah kuşağını 1988'de aldı.",
+      "en": "Ziya Özkan was born in 1969, is married, and is the father of two. He began martial arts in 1983 with full-contact Kyokushin Karate; between 1983 and 1992 he fought in numerous unprotected full-contact matches, earning his first black belt in 1988."
+    },
+    {
+      "key": "thist.sensei.p2",
+      "tr": "1991 yılında Ümraniye'de (Çakmak Mah.) Türkiye'nin ilk profesyonel Ashihara Karate salonunu — bugünkü Ashihara Karate İstanbul Dojo'yu — açtı ve o günden beri aralıksız İstanbul'da antrenörlük yapıyor.",
+      "en": "In 1991 he opened Türkiye's first professional Ashihara Karate gym in Ümraniye (Çakmak Mah.) — today's Ashihara Karate Istanbul Dojo — and has coached continuously in Istanbul ever since."
+    },
+    {
+      "key": "thist.sensei.p3",
+      "tr": "NIKO Japonya'dan 3. Dan ve Türkiye Karate Federasyonu'ndan 7. Dan derecesine sahiptir; Ashihara Karate çatısı altında öz savunma ve dövüş eğitimi veriyor.",
+      "en": "He holds 3rd Dan from NIKO Japan and 7th Dan from the Turkish Karate Federation, teaching self-defence and fighting under Ashihara Karate."
+    },
+    {
+      "key": "thist.sensei.quote",
+      "tr": "\"Savaşta silahın süslüsü değil, işe yarayanı makbuldür.\"",
+      "en": "\"In battle, it is not the fanciest weapon that matters — it's the one that works.\""
+    },
+    {
+      "key": "thist.founding.eyebrow",
+      "tr": "Kuruluş",
+      "en": "Founding"
+    },
+    {
+      "key": "thist.founding.title",
+      "tr": "İlk Ashihara Salonu",
+      "en": "The First Ashihara Dojo"
+    },
+    {
+      "key": "thist.founding.p1",
+      "tr": "1991 yılında Ziya Özkan, Ümraniye'nin Çakmak Mahallesi'nde Türkiye'nin ilk profesyonel Ashihara Karate salonunu — bugünkü Ashihara Karate İstanbul Dojo'yu — açtı. O günden bu yana antrenörlüğünü aralıksız İstanbul'da sürdürüyor.",
+      "en": "In 1991, Ziya Özkan opened Türkiye's first professional Ashihara Karate dojo — today's Ashihara Karate Istanbul Dojo — in Ümraniye's Çakmak neighbourhood, and has coached there continuously ever since."
+    },
+    {
+      "key": "thist.founding.p2",
+      "tr": "Bugün dersler İnkılap Mahallesi'ndeki Halide Edip Mesleki ve Teknik Anadolu Lisesi spor salonunda, haftada iki gün, özel eğitim seviyesinde küçük gruplar halinde yürütülüyor.",
+      "en": "Today, classes run twice a week in small, dedicated groups at the sports hall of Halide Edip Vocational and Technical Anatolian High School in the İnkılap neighbourhood."
+    },
+    {
+      "key": "thist.recog.eyebrow",
+      "tr": "Tanınma",
+      "en": "Recognition"
+    },
+    {
+      "key": "thist.recog.title",
+      "tr": "Otuz Yılı Aşan Emek",
+      "en": "Over Three Decades of Work"
+    },
+    {
+      "key": "thist.recog.p1",
+      "tr": "Ziya Özkan, NIKO Japonya'dan 3. Dan ve Türkiye Karate Federasyonu'ndan 7. Dan derecesine sahiptir; Ashihara Karate çatısı altında öz savunma ve dövüş eğitimi de veriyor.",
+      "en": "Ziya Özkan holds 3rd Dan from NIKO Japan and 7th Dan from the Turkish Karate Federation, and also teaches self-defence and fighting under Ashihara Karate."
+    },
+    {
+      "key": "thist.recog.p2",
+      "tr": "Okulun 40. yıl kutlamalarına katılımı, Türkiye temsilciliğinin uluslararası Ashihara camiasıyla kurduğu bağın bir göstergesi oldu.",
+      "en": "His participation in the school's 40th-anniversary celebrations reflected the strong ties between the Turkish representation and the international Ashihara community."
+    },
+    {
+      "key": "thist.tl.eyebrow",
+      "tr": "Zaman Çizgisi",
+      "en": "Timeline"
+    },
+    {
+      "key": "thist.tl.title",
+      "tr": "İstanbul Yolculuğu",
+      "en": "The Istanbul Journey"
+    },
+    {
+      "key": "thist.tl.1.t",
+      "tr": "Kyokushin'e İlk Adım",
+      "en": "First Steps in Kyokushin"
+    },
+    {
+      "key": "thist.tl.1.d",
+      "tr": "Ziya Özkan, tam temaslı Kyokushin Karate ile dövüş sporlarına başlar.",
+      "en": "Ziya Özkan begins his martial arts journey in full-contact Kyokushin Karate."
+    },
+    {
+      "key": "thist.tl.2.t",
+      "tr": "İlk Siyah Kuşak",
+      "en": "First Black Belt"
+    },
+    {
+      "key": "thist.tl.2.d",
+      "tr": "Yıllar süren tam temas maçlarının ardından ilk siyah kuşağını alır.",
+      "en": "After years of full-contact matches, he earns his first black belt."
+    },
+    {
+      "key": "thist.tl.3.t",
+      "tr": "İstanbul'da İlk Dojo",
+      "en": "First Dojo in Istanbul"
+    },
+    {
+      "key": "thist.tl.3.d",
+      "tr": "Çakmak Mahallesi'nde Türkiye'nin ilk profesyonel Ashihara Karate salonu açılır.",
+      "en": "Türkiye's first professional Ashihara Karate dojo opens in the Çakmak neighbourhood."
+    },
+    {
+      "key": "thist.tl.4.year",
+      "tr": "2000 →",
+      "en": "2000 →"
+    },
+    {
+      "key": "thist.tl.4.t",
+      "tr": "Sürekli Büyüme",
+      "en": "Continued Growth"
+    },
+    {
+      "key": "thist.tl.4.d",
+      "tr": "Dojo, çocuk, genç ve yetişkin sporculara sabaki disiplinini kazandırmaya devam eder.",
+      "en": "The dojo continues teaching the discipline of sabaki to children, teens, and adults."
+    },
+    {
+      "key": "thist.tl.5.year",
+      "tr": "Bugün",
+      "en": "Today"
+    },
+    {
+      "key": "thist.tl.5.t",
+      "tr": "Ashihara Karate Türkiye",
+      "en": "Ashihara Karate Türkiye"
+    },
+    {
+      "key": "thist.tl.5.d",
+      "tr": "Ashihara Karate İstanbul Dojo, Türkiye'deki Ashihara mirasını sürdürüyor.",
+      "en": "Ashihara Karate Istanbul Dojo carries the Ashihara legacy forward in Türkiye."
+    }
+  ]
+}

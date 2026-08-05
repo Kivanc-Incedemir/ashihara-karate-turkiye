@@ -1,0 +1,169 @@
+{
+  "strings": [
+    {
+      "key": "whist.eyebrow",
+      "tr": "Dünya Tarihçesi",
+      "en": "Global History"
+    },
+    {
+      "key": "whist.title",
+      "tr": "Kyokushin'den Sabaki'ye",
+      "en": "From Kyokushin to Sabaki"
+    },
+    {
+      "key": "whist.sub",
+      "tr": "Hideyuki Ashihara'nın Japonya'da kurduğu ekolün doğuşu ve dünyaya yayılışı.",
+      "en": "How Hideyuki Ashihara's school was born in Japan and spread across the world."
+    },
+    {
+      "key": "whist.origin.eyebrow",
+      "tr": "Kökler",
+      "en": "Roots"
+    },
+    {
+      "key": "whist.origin.title",
+      "tr": "Bir Kyokushin Öğrencisi",
+      "en": "A Student of Kyokushin"
+    },
+    {
+      "key": "whist.origin.p1",
+      "tr": "Hideyuki Ashihara, 5 Aralık 1944'te Hiroşima'da doğdu. Eylül 1961'de, henüz 16 yaşındayken Kyokushinkai'nin kurucusu Mas Oyama'nın dojosuna katıldı.",
+      "en": "Hideyuki Ashihara was born on 5 December 1944 in Hiroshima. In September 1961, at just 16, he joined the dojo of Kyokushinkai founder Mas Oyama."
+    },
+    {
+      "key": "whist.origin.p2",
+      "tr": "26 Mart 1964'te, 19 yaşında siyah kuşak (Shodan) derecesini aldı; kısa süre sonra eğitmen oldu ve Kyokushinkai'yi Japonya'nın batısında genişletti.",
+      "en": "On 26 March 1964, at 19, he earned his black belt (Shodan); he soon became an instructor and helped expand Kyokushinkai across western Japan."
+    },
+    {
+      "key": "whist.founding.eyebrow",
+      "tr": "Kuruluş",
+      "en": "Founding"
+    },
+    {
+      "key": "whist.founding.title",
+      "tr": "Ashihara Kaikan'ın Doğuşu",
+      "en": "The Birth of Ashihara Kaikan"
+    },
+    {
+      "key": "whist.founding.p1",
+      "tr": "Eylül 1980'de Hideyuki Ashihara, Matsuyama'daki kendi dojosunda Yeni Uluslararası Karate Organizasyonu'nu (NIKO) — Ashihara Kaikan'ı kurdu ve 'Kanchō' (Büyük Usta) unvanını aldı.",
+      "en": "In September 1980, Hideyuki Ashihara founded the New International Karate Organisation (NIKO) — Ashihara Kaikan — at his own dojo in Matsuyama, taking the title 'Kanchō' (Grandmaster)."
+    },
+    {
+      "key": "whist.founding.p2",
+      "tr": "Yeni ekolün merkezinde 'sabaki' yer alıyordu: hazırlık, mesafe ve zamanlama değerlendirmesi ile duruşun korunmasına dayanan, rakibin saldırısından dairesel biçimde kaçıp karşı saldırıya geçen bir sistem.",
+      "en": "At the heart of the new school was 'sabaki': a system built on preparation, distance and timing judgement, and stance control — evading an attack in a circular motion and countering from the opponent's blind side."
+    },
+    {
+      "key": "whist.spread.eyebrow",
+      "tr": "Yayılma",
+      "en": "Spread"
+    },
+    {
+      "key": "whist.spread.title",
+      "tr": "Japonya'dan Dünyaya",
+      "en": "From Japan to the World"
+    },
+    {
+      "key": "whist.spread.p1",
+      "tr": "Ekol hızla büyüdü ve önemli isimler yetiştirdi: öğrencilerinden Kazuyoshi Ishii, K-1 kickboks organizasyonunun yaratıcılarından biri oldu.",
+      "en": "The school grew quickly and produced notable names, including Kazuyoshi Ishii, who became one of the creators of the K-1 kickboxing organisation."
+    },
+    {
+      "key": "whist.spread.p2",
+      "tr": "Bugün NIKO, Japonya'da yaklaşık 180, yurt dışında ise 220'den fazla şube ile Avrupa, Amerika, Ortadoğu ve Afrika'da varlığını sürdürüyor; her yıl uluslararası şampiyonalar ve yıldönümü etkinlikleri düzenleniyor.",
+      "en": "Today NIKO maintains around 180 branches in Japan and more than 220 abroad, across Europe, the Americas, the Middle East, and Africa, with international championships and anniversary events held every year."
+    },
+    {
+      "key": "whist.succession.eyebrow",
+      "tr": "Miras",
+      "en": "Legacy"
+    },
+    {
+      "key": "whist.succession.title",
+      "tr": "Yeni Nesil Liderlik",
+      "en": "A New Generation Leads"
+    },
+    {
+      "key": "whist.succession.p1",
+      "tr": "1987'de ALS (amyotrofik lateral skleroz) teşhisi konan Kanchō Ashihara, 1992'de kıdemli öğrencisi Hiroshi Harada'yı NIKO'nun tüm işlerini yürütmekle görevlendirdi.",
+      "en": "Diagnosed with ALS (amyotrophic lateral sclerosis) in 1987, Kanchō Ashihara appointed his senior student Hiroshi Harada in 1992 to oversee all of NIKO's affairs."
+    },
+    {
+      "key": "whist.succession.p2",
+      "tr": "24 Nisan 1995'te, 50 yaşında vefat etti; cenazesine 1000'den fazla kişi katıldı. Oğlu Hidenori Ashihara, 18 yaşında NIKO'nun ikinci Kanchō'su oldu ve organizasyonu bugün de yönetiyor.",
+      "en": "He passed away on 24 April 1995 at the age of 50; more than 1,000 people attended his funeral. His son, Hidenori Ashihara, became NIKO's second Kanchō at just 18 and still leads the organisation today."
+    },
+    {
+      "key": "whist.succession.p3",
+      "tr": "Kanchō'nun vefatının ardından bazı kıdemli öğrenciler kendi organizasyonlarını kurdu, ancak hepsi aynı sabaki temelini paylaşmaya devam ediyor.",
+      "en": "After the Kanchō's passing, several senior students founded their own organisations, though all continue to share the same sabaki foundation."
+    },
+    {
+      "key": "whist.tl.eyebrow",
+      "tr": "Zaman Çizgisi",
+      "en": "Timeline"
+    },
+    {
+      "key": "whist.tl.title",
+      "tr": "Kökten Bugüne",
+      "en": "From Roots to Today"
+    },
+    {
+      "key": "whist.tl.1.t",
+      "tr": "Oyama Dojosu'na Katılım",
+      "en": "Joining the Oyama Dojo"
+    },
+    {
+      "key": "whist.tl.1.d",
+      "tr": "Genç Hideyuki Ashihara, Mas Oyama'nın Kyokushinkai dojosunda eğitime başlar.",
+      "en": "A young Hideyuki Ashihara begins training at Mas Oyama's Kyokushinkai dojo."
+    },
+    {
+      "key": "whist.tl.2.t",
+      "tr": "Siyah Kuşak",
+      "en": "Black Belt"
+    },
+    {
+      "key": "whist.tl.2.d",
+      "tr": "19 yaşındaki Ashihara Shodan derecesini alır ve kısa sürede eğitmen olur.",
+      "en": "At 19, Ashihara earns his Shodan rank and soon becomes an instructor."
+    },
+    {
+      "key": "whist.tl.3.t",
+      "tr": "Ashihara Kaikan'ın Kuruluşu",
+      "en": "Founding of Ashihara Kaikan"
+    },
+    {
+      "key": "whist.tl.3.d",
+      "tr": "Eylül 1980'de NIKO — Ashihara Kaikan resmen kurulur; Kanchō unvanı bu dönemde alınır.",
+      "en": "In September 1980, NIKO — Ashihara Kaikan is formally founded, and the title of Kanchō is taken."
+    },
+    {
+      "key": "whist.tl.4.t",
+      "tr": "Kanchō'nun Vefatı",
+      "en": "Passing of the Kanchō"
+    },
+    {
+      "key": "whist.tl.4.d",
+      "tr": "Hideyuki Ashihara 24 Nisan 1995'te vefat eder; oğlu Hidenori Ashihara ikinci Kanchō olur.",
+      "en": "Hideyuki Ashihara passes away on 24 April 1995; his son Hidenori Ashihara becomes the second Kanchō."
+    },
+    {
+      "key": "whist.tl.5.year",
+      "tr": "Bugün",
+      "en": "Today"
+    },
+    {
+      "key": "whist.tl.5.t",
+      "tr": "Küresel Ağ",
+      "en": "A Global Network"
+    },
+    {
+      "key": "whist.tl.5.d",
+      "tr": "NIKO bugün Japonya'da 180, yurt dışında 220'den fazla dojo ile faaliyet gösteriyor.",
+      "en": "NIKO today operates with 180 dojos in Japan and more than 220 abroad."
+    }
+  ]
+}

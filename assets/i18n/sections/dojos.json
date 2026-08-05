@@ -1,0 +1,114 @@
+{
+  "strings": [
+    {
+      "key": "dojo.info.whatsapp",
+      "tr": "WhatsApp",
+      "en": "WhatsApp"
+    },
+    {
+      "key": "dojo.freelesson",
+      "tr": "İlk ders ücretsizdir.",
+      "en": "The first lesson is free."
+    },
+    {
+      "key": "dojo.eyebrow",
+      "tr": "Dojolar & İletişim",
+      "en": "Dojos & Contact"
+    },
+    {
+      "key": "dojo.title",
+      "tr": "Bize Katıl",
+      "en": "Join Us"
+    },
+    {
+      "key": "dojo.sub",
+      "tr": "Dojomuzu ziyaret et veya doğrudan iletişime geç. İlk ders herkes için açıktır.",
+      "en": "Visit our dojo or reach out directly. The first lesson is open to everyone."
+    },
+    {
+      "key": "dojo.list.eyebrow",
+      "tr": "Antrenman Yeri",
+      "en": "Training Location"
+    },
+    {
+      "key": "dojo.list.title",
+      "tr": "Ashihara Karate İstanbul Dojo",
+      "en": "Ashihara Karate Istanbul Dojo"
+    },
+    {
+      "key": "dojo.addr.p1",
+      "tr": "İnkılap Mah., Küçüksu Cad. No:67, 34768 Ümraniye/İstanbul — İstanbul Halide Edip Mesleki ve Teknik Anadolu Lisesi bünyesindeki spor salonu.",
+      "en": "İnkılap Mah., Küçüksu Cad. No:67, 34768 Ümraniye/İstanbul — the sports hall inside İstanbul Halide Edip Vocational and Technical Anatolian High School."
+    },
+    {
+      "key": "dojo.addr.p2",
+      "tr": "Özel eğitim alanında, özel ders seviyesinde, 10 kişilik gruplarla çalışılır.",
+      "en": "Training runs in a dedicated space, at a private-lesson level, in groups of 10."
+    },
+    {
+      "key": "dojo.schedule",
+      "tr": "Antrenman Saati",
+      "en": "Training Hours"
+    },
+    {
+      "key": "dojo.days",
+      "tr": "Pazartesi · Perşembe",
+      "en": "Monday · Thursday"
+    },
+    {
+      "key": "dojo.viewmap",
+      "tr": "Haritada Gör",
+      "en": "View on Map"
+    },
+    {
+      "key": "dojo.contact.eyebrow",
+      "tr": "İletişim",
+      "en": "Contact"
+    },
+    {
+      "key": "dojo.contact.title",
+      "tr": "Bize Ulaş",
+      "en": "Get in Touch"
+    },
+    {
+      "key": "dojo.form.name",
+      "tr": "Ad Soyad",
+      "en": "Full Name"
+    },
+    {
+      "key": "dojo.form.email",
+      "tr": "E-posta",
+      "en": "Email"
+    },
+    {
+      "key": "dojo.form.msg",
+      "tr": "Mesajın",
+      "en": "Your Message"
+    },
+    {
+      "key": "dojo.form.send",
+      "tr": "Mesajı Gönder",
+      "en": "Send Message"
+    },
+    {
+      "key": "dojo.form.note",
+      "tr": "Bu form gösterim amaçlıdır. Gerçek gönderim için e-postayı kullanın.",
+      "en": "This form is for demonstration. For real enquiries, use email."
+    },
+    {
+      "key": "dojo.info.mail",
+      "tr": "E-posta",
+      "en": "Email"
+    },
+    {
+      "key": "dojo.info.phone",
+      "tr": "Antrenman Saati",
+      "en": "Training Hours"
+    },
+    {
+      "key": "dojo.info.hq",
+      "tr": "Adres",
+      "en": "Address"
+    }
+  ]
+}

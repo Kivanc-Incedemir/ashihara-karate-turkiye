@@ -1,0 +1,99 @@
+{
+  "strings": [
+    {
+      "key": "cta.join",
+      "tr": "İlk Ders Ücretsiz",
+      "en": "First Lesson Free"
+    },
+    {
+      "key": "cta.gallery",
+      "tr": "Galeriyi Gör",
+      "en": "View Gallery"
+    },
+    {
+      "key": "home.eyebrow",
+      "tr": "Sabaki · Gerçek Dövüş Karatesi",
+      "en": "Sabaki · Full-Contact Karate"
+    },
+    {
+      "key": "home.title",
+      "tr": "Kuvveti Yönlendir. Rakibi Alt Et.",
+      "en": "Redirect the Force. Control the Fight."
+    },
+    {
+      "key": "home.sub",
+      "tr": "Ashihara Karate, dairesel hareket (sabaki) ile rakibin gücünü kendi lehine çeviren tam temaslı bir dövüş sanatıdır. Türkiye çatısı altında disiplin, cesaret ve saygıyı bir araya getiriyoruz.",
+      "en": "Ashihara Karate is a full-contact martial art that turns an opponent's power against them through circular movement — sabaki. Under the Türkiye organisation we bring together discipline, courage, and respect."
+    },
+    {
+      "key": "home.scroll",
+      "tr": "Aşağı Kaydır",
+      "en": "Scroll"
+    },
+    {
+      "key": "prin.eyebrow",
+      "tr": "Temel İlkeler",
+      "en": "Core Principles"
+    },
+    {
+      "key": "prin.title",
+      "tr": "Sabaki'nin Üç Direği",
+      "en": "The Three Pillars of Sabaki"
+    },
+    {
+      "key": "prin.1.t",
+      "tr": "Kaçınma",
+      "en": "Evasion"
+    },
+    {
+      "key": "prin.1.d",
+      "tr": "Rakibin saldırı hattından dairesel adımlarla çıkmak. Kuvvete kuvvetle değil, açıyla cevap vermek.",
+      "en": "Step off the line of attack with circular movement. Answer force with angle, not with force."
+    },
+    {
+      "key": "prin.2.t",
+      "tr": "Konumlanma",
+      "en": "Positioning"
+    },
+    {
+      "key": "prin.2.d",
+      "tr": "Rakibin kör noktasına geçerek dengeyi ele almak. Doğru pozisyon, yarı kazanılmış mücadeledir.",
+      "en": "Move to the opponent's blind side and seize their balance. Good position is half the fight won."
+    },
+    {
+      "key": "prin.3.t",
+      "tr": "Karşı Saldırı",
+      "en": "Counter"
+    },
+    {
+      "key": "prin.3.d",
+      "tr": "Kontrolü aldığın anda kesin ve ekonomik teknikle bitirmek. Ashihara'nın imzası budur.",
+      "en": "The moment control is yours, finish with a decisive, economical technique. This is Ashihara's signature."
+    },
+    {
+      "key": "hteaser.eyebrow",
+      "tr": "Ashihara Kaikan",
+      "en": "Ashihara Kaikan"
+    },
+    {
+      "key": "hteaser.title",
+      "tr": "Sokak Gerçekliğinden Doğan Bir Ekol",
+      "en": "A School Born From Real Combat"
+    },
+    {
+      "key": "hteaser.p1",
+      "tr": "Kanchō Hideyuki Ashihara, Kyokushin geleneğinden yola çıkarak gerçek dövüş koşullarına uygun, sade ve etkili bir sistem geliştirdi. Gösterişten çok işlevi önceler.",
+      "en": "Starting from the Kyokushin tradition, Kanchō Hideyuki Ashihara built a plain, effective system suited to real fighting conditions. It prioritises function over show."
+    },
+    {
+      "key": "hteaser.p2",
+      "tr": "Türkiye'de bu mirası; çocuklar, gençler ve yetişkinler için güvenli, disiplinli ve destekleyici bir ortamda sürdürüyoruz.",
+      "en": "In Türkiye we carry this legacy forward in a safe, disciplined, and supportive environment for children, teens, and adults alike."
+    },
+    {
+      "key": "hteaser.link",
+      "tr": "Hikâyenin tamamını oku",
+      "en": "Read the full story"
+    }
+  ]
+}

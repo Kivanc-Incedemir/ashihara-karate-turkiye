@@ -5,11 +5,22 @@
      <input data-i18n-attr="placeholder:key">          -> attribute
      <div data-i18n-html="key">                         -> innerHTML (allows markup)
    Preference persists in localStorage("ak-lang").
-   Dictionaries live in assets/i18n/tr.json and assets/i18n/en.json so they
-   can be edited through the CMS (admin/) without touching code.
+   Dictionaries live in assets/i18n/sections/*.json (one file per page, each
+   holding both tr/en text side by side) so they can be edited through the
+   CMS (admin/) without touching code.
    ========================================================================= */
 
 const DICTS = { tr: {}, en: {} };
+
+const I18N_SECTIONS = [
+  "global",
+  "home",
+  "about",
+  "gallery",
+  "dojos",
+  "world-history",
+  "turkey-history",
+];
 
 function applyLang(lang) {
   const dict = DICTS[lang] || DICTS.tr;
@@ -57,17 +68,19 @@ function reveal() {
   document.documentElement.classList.remove("i18n-hide");
 }
 
-// strings.json shape: { "strings": [{ "key": "nav.home", "value": "Ana Sayfa" }, ...] }
+// each section file shape: { "strings": [{ "key": "nav.home", "tr": "...", "en": "..." }, ...] }
 // (a list, not a plain object, so it's editable with Decap CMS's built-in "list" widget)
-const toDict = (list) => Object.fromEntries((list || []).map((e) => [e.key, e.value]));
-
 async function loadDicts() {
-  const [tr, en] = await Promise.all([
-    fetch("assets/i18n/tr.json", { cache: "no-store" }).then((r) => (r.ok ? r.json() : { strings: [] })),
-    fetch("assets/i18n/en.json", { cache: "no-store" }).then((r) => (r.ok ? r.json() : { strings: [] })),
-  ]);
-  DICTS.tr = toDict(tr.strings);
-  DICTS.en = toDict(en.strings);
+  const sections = await Promise.all(
+    I18N_SECTIONS.map((name) =>
+      fetch(`assets/i18n/sections/${name}.json`, { cache: "no-store" }).then((r) =>
+        r.ok ? r.json() : { strings: [] },
+      ),
+    ),
+  );
+  const all = sections.flatMap((s) => s.strings || []);
+  DICTS.tr = Object.fromEntries(all.map((e) => [e.key, e.tr]));
+  DICTS.en = Object.fromEntries(all.map((e) => [e.key, e.en]));
 }
 
 async function initI18n() {

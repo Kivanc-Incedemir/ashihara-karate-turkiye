@@ -1,0 +1,74 @@
+{
+  "strings": [
+    {
+      "key": "nav.home",
+      "tr": "Ana Sayfa",
+      "en": "Home"
+    },
+    {
+      "key": "nav.about",
+      "tr": "Ashihara Hakkında",
+      "en": "About Ashihara"
+    },
+    {
+      "key": "nav.gallery",
+      "tr": "Galeri & Video",
+      "en": "Gallery & Video"
+    },
+    {
+      "key": "nav.dojos",
+      "tr": "Dojolar & İletişim",
+      "en": "Dojos & Contact"
+    },
+    {
+      "key": "nav.worldhistory",
+      "tr": "Dünya Tarihçesi",
+      "en": "Global History"
+    },
+    {
+      "key": "nav.turkeyhistory",
+      "tr": "Türkiye Tarihçesi",
+      "en": "Turkey History"
+    },
+    {
+      "key": "brand.sub",
+      "tr": "Türkiye",
+      "en": "Türkiye"
+    },
+    {
+      "key": "whatsapp.href",
+      "tr": "https://wa.me/905337779022?text=Merhaba%2C%20Ashihara%20Karate%20dersleri%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.",
+      "en": "https://wa.me/905337779022?text=Hello%2C%20I%20would%20like%20information%20about%20Ashihara%20Karate%20classes."
+    },
+    {
+      "key": "foot.about",
+      "tr": "Ashihara Karate Türkiye — sabaki temelli tam temaslı karate ekolünün Türkiye topluluğu.",
+      "en": "Ashihara Karate Türkiye — the Turkish community of the sabaki-based full-contact karate school."
+    },
+    {
+      "key": "foot.nav",
+      "tr": "Sayfalar",
+      "en": "Pages"
+    },
+    {
+      "key": "foot.hq",
+      "tr": "Ashihara Genel Merkezi",
+      "en": "Ashihara Headquarters"
+    },
+    {
+      "key": "foot.contact",
+      "tr": "İletişim",
+      "en": "Contact"
+    },
+    {
+      "key": "foot.rights",
+      "tr": "Tüm hakları saklıdır.",
+      "en": "All rights reserved."
+    },
+    {
+      "key": "foot.disclaimer",
+      "tr": "Resmi olmayan tanıtım sitesi.",
+      "en": "Unofficial promotional site."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "strings": [
+    {
+      "key": "gal.eyebrow",
+      "tr": "Galeri",
+      "en": "Gallery"
+    },
+    {
+      "key": "gal.title",
+      "tr": "Tatamiden Kareler",
+      "en": "Frames From the Mat"
+    },
+    {
+      "key": "gal.sub",
+      "tr": "Antrenmanlar, sınavlar, seminerler ve turnuvalardan anlar.",
+      "en": "Moments from training, gradings, seminars, and tournaments."
+    },
+    {
+      "key": "gal.filter.all",
+      "tr": "Tümü",
+      "en": "All"
+    },
+    {
+      "key": "gal.filter.training",
+      "tr": "Antrenman",
+      "en": "Training"
+    },
+    {
+      "key": "gal.filter.grading",
+      "tr": "Kuşak Sınavı",
+      "en": "Gradings"
+    },
+    {
+      "key": "gal.filter.event",
+      "tr": "Etkinlik",
+      "en": "Events"
+    },
+    {
+      "key": "gal.empty.title",
+      "tr": "Henüz fotoğraf eklenmedi",
+      "en": "No photos added yet"
+    },
+    {
+      "key": "gal.empty.body",
+      "tr": "Fotoğrafları <code>photos/</code> klasörüne ekleyin, ardından listeyi güncellemek için galeri oluşturucuyu çalıştırın.",
+      "en": "Add photos to the <code>photos/</code> folder, then run the gallery builder to refresh the list."
+    },
+    {
+      "key": "vid.eyebrow",
+      "tr": "İzle",
+      "en": "Watch"
+    },
+    {
+      "key": "vid.title",
+      "tr": "Video Arşivi",
+      "en": "Video Archive"
+    },
+    {
+      "key": "vid.sub",
+      "tr": "Sensei Ziya Özkan'ın YouTube kanalından teknikler, kata ve gösteriler.",
+      "en": "Techniques, kata, and demonstrations from Sensei Ziya Özkan's YouTube channel."
+    },
+    {
+      "key": "vid.more",
+      "tr": "Kanalın Tamamını YouTube'da İzle",
+      "en": "Watch the full channel on YouTube"
+    }
+  ]
+}

@@ -5,8 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
     <title>İçerik Yönetimi · Ashihara Karate Türkiye</title>
+    <style>
+      /* Decap CMS has no built-in "stats" section, so this links out to the
+         Cloudflare Web Analytics dashboard instead (aggregate pageview/visit
+         counts only — Cloudflare Web Analytics never tracks individuals). */
+      #stats-link {
+        position: fixed;
+        top: 12px;
+        right: 16px;
+        z-index: 9999;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        padding: 8px 14px;
+        border-radius: 999px;
+        background: #1a1a1a;
+        color: #fff;
+        font: 600 13px/1.2 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        text-decoration: none;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+      }
+      #stats-link:hover {
+        background: #333;
+      }
+    </style>
   </head>
   <body>
+    <a
+      id="stats-link"
+      href="https://dash.cloudflare.com/?to=/b608ddaa93d9790707db391210641a6a/web-analytics"
+      target="_blank"
+      rel="noopener"
+    >📊 Ziyaret İstatistikleri</a>
     <script src="https://unpkg.com/decap-cms@^3.3.0/dist/decap-cms.js"></script>
   </body>
 </html>

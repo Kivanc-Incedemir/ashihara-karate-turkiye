@@ -4,13 +4,16 @@
      <span data-i18n="key">fallback</span>            -> textContent
      <input data-i18n-attr="placeholder:key">          -> attribute
      <div data-i18n-html="key">                         -> innerHTML (allows markup)
+     <img data-photo-key="slot.key" src="photos/fallback.jpg"> -> src
    Preference persists in localStorage("ak-lang").
    Dictionaries live in assets/i18n/sections/*.json (one file per page, each
    holding both tr/en text side by side) so they can be edited through the
-   CMS (admin/) without touching code.
+   CMS (admin/) without touching code. Hero/section photo assignments live
+   the same way in assets/photo-slots.json, keyed by data-photo-key.
    ========================================================================= */
 
 const DICTS = { tr: {}, en: {} };
+let PHOTO_SLOTS = {};
 
 const I18N_SECTIONS = [
   "global",
@@ -42,6 +45,8 @@ function applyLang(lang) {
     });
   });
 
+  applyPhotoSlots();
+
   const titleKey = document.body.getAttribute("data-title-key");
   if (titleKey && dict[titleKey]) {
     document.title = dict[titleKey] + " · Ashihara Karate Türkiye";
@@ -53,6 +58,15 @@ function applyLang(lang) {
 
   // let other scripts (e.g. gallery captions) react
   document.dispatchEvent(new CustomEvent("langchange", { detail: { lang } }));
+}
+
+// swaps hero/section <img> src for whichever file the CMS-editable
+// assets/photo-slots.json currently assigns to that slot's data-photo-key
+function applyPhotoSlots() {
+  document.querySelectorAll("[data-photo-key]").forEach((el) => {
+    const file = PHOTO_SLOTS[el.getAttribute("data-photo-key")];
+    if (file) el.src = "photos/" + file;
+  });
 }
 
 function readLang() {
@@ -71,16 +85,22 @@ function reveal() {
 // each section file shape: { "strings": [{ "key": "nav.home", "tr": "...", "en": "..." }, ...] }
 // (a list, not a plain object, so it's editable with Decap CMS's built-in "list" widget)
 async function loadDicts() {
-  const sections = await Promise.all(
-    I18N_SECTIONS.map((name) =>
-      fetch(`assets/i18n/sections/${name}.json`, { cache: "no-store" }).then((r) =>
-        r.ok ? r.json() : { strings: [] },
+  const [sections, photoSlots] = await Promise.all([
+    Promise.all(
+      I18N_SECTIONS.map((name) =>
+        fetch(`assets/i18n/sections/${name}.json`, { cache: "no-store" }).then((r) =>
+          r.ok ? r.json() : { strings: [] },
+        ),
       ),
     ),
-  );
+    fetch("assets/photo-slots.json", { cache: "no-store" }).then((r) =>
+      r.ok ? r.json() : { slots: [] },
+    ),
+  ]);
   const all = sections.flatMap((s) => s.strings || []);
   DICTS.tr = Object.fromEntries(all.map((e) => [e.key, e.tr]));
   DICTS.en = Object.fromEntries(all.map((e) => [e.key, e.en]));
+  PHOTO_SLOTS = Object.fromEntries((photoSlots.slots || []).map((s) => [s.key, s.file]));
 }
 
 async function initI18n() {

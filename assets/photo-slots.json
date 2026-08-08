@@ -1,0 +1,13 @@
+{
+  "slots": [
+    { "key": "home.teaser", "file": "founder-kancho-hideyuki-ashihara.jpg" },
+    { "key": "about.origin", "file": "real-02-grup-dersi.jpg" },
+    { "key": "dojo.card", "file": "real-06-umraniye-toplu-foto.jpg" },
+    { "key": "whist.origin", "file": "founder-kancho-hideyuki-ashihara.jpg" },
+    { "key": "whist.founding", "file": "niko-logo-ashihara-kaikan.jpg" },
+    { "key": "whist.spread", "file": "event-06-40-yil-toplu-foto.jpg" },
+    { "key": "whist.succession", "file": "kancho-hidenori-ashihara.jpg" },
+    { "key": "thist.sensei", "file": "event-08-40-yil-odul-toreni.jpg" },
+    { "key": "thist.founding", "file": "real-06-umraniye-toplu-foto.jpg" }
+  ]
+}
